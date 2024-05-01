@@ -1,0 +1,28 @@
+/* pastel-theme.css */
+
+/* General pastel color palette */
+:root {
+    --pastel-purple: #b19cd9;
+    --pastel-blue: #a3c4bc;
+    --pastel-green: #b5e7a0;
+    --pastel-yellow: #ffd966;
+    --pastel-pink: #f8b6d6;
+}
+
+/* Apply pastel colors to specific elements */
+body {
+    background-color: var(--pastel-blue);
+}
+
+header {
+    background-color: var(--pastel-purple);
+}
+
+button {
+    background-color: var(--pastel-green);
+    color: #fff;
+}
+
+    button:hover {
+        background-color: #8db580; /* Slightly darker shade on hover */
+    }
